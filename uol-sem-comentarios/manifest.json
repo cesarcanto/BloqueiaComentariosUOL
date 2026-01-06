@@ -22,13 +22,24 @@
     "gecko": {
       "id": "uol-comment-blocker@local",
       "data_collection_permissions": {
-        "collects_personal_data": false,
-        "collects_browsing_history": false,
-        "collects_health_data": false,
-        "collects_financial_data": false,
-        "collects_location_data": false,
-        "collects_user_activity": false,
-        "collects_user_content": false
+        "required": {
+          "collects_personal_data": false,
+          "collects_browsing_history": false,
+          "collects_health_data": false,
+          "collects_financial_data": false,
+          "collects_location_data": false,
+          "collects_user_activity": false,
+          "collects_user_content": false
+        },
+        "optional": {
+          "collects_personal_data": false,
+          "collects_browsing_history": false,
+          "collects_health_data": false,
+          "collects_financial_data": false,
+          "collects_location_data": false,
+          "collects_user_activity": false,
+          "collects_user_content": false
+        }
       }
     }
   }
