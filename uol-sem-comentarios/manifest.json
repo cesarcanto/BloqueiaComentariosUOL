@@ -9,9 +9,27 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://noticias.uol.com.br/*"],
-      "js": ["content.js"],
+      "matches": [
+        "*://noticias.uol.com.br/*"
+      ],
+      "js": [
+        "content.js"
+      ],
       "run_at": "document_idle"
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "uol-comment-blocker@local",
+      "data_collection_permissions": {
+        "collects_personal_data": false,
+        "collects_browsing_history": false,
+        "collects_health_data": false,
+        "collects_financial_data": false,
+        "collects_location_data": false,
+        "collects_user_activity": false,
+        "collects_user_content": false
+      }
+    }
+  }
 }

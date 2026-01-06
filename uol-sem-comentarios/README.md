@@ -31,6 +31,10 @@ Instale esta extensão e **POOF!** Os comentários desaparecem como aquele dinhe
 - 🚀 Funciona como magia ✨
 - 📱 Compatível com navegadores que sabem ler (até Internet Explorer 6 estava melhor que ler comentário do UOL)
 
+## Privacidade 🔒
+
+Esta extensão não coleta, armazena ou transmite dados do usuário.
+
 ## Requisitos
 
 - Um navegador que funcione
@@ -53,3 +57,4 @@ Porque esta extensão é um ato de caridade pública.
 
 **Versão:** 1.0 - A Versão do Sanity Check  
 **Status:** Em produção (pelo bem da humanidade)
+
