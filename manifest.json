@@ -23,7 +23,7 @@
       "id": "uol-comment-blocker@local",
       "data_collection_permissions": {
         "required": ["none"],
-        "optional": ["none"]
+        "optional": []
       }
     }
   }
