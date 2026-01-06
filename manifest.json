@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "UOL Sem Comentários",
   "version": "1.0.0",
   "description": "Oculta a área de comentários do UOL Notícias.",
@@ -22,10 +22,8 @@
     "gecko": {
       "id": "uol-comment-blocker@local",
       "data_collection_permissions": {
-        "required": [
-          "collects_personal_data"
-        ],
-        "optional": []
+        "required": ["none"],
+        "optional": ["none"]
       }
     }
   }
