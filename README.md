@@ -37,7 +37,7 @@ Esta extensão não coleta, armazena ou transmite dados do usuário.
 
 ## Requisitos
 
-- Um navegador que funcione
+- Firefox
 - Pelo menos 2 neurônios funcionando
 - Disposição para viver em paz
 
@@ -55,6 +55,6 @@ Porque esta extensão é um ato de caridade pública.
 
 ---
 
-**Versão:** 1.0 - A Versão do Sanity Check  
+**Versão:** 1.0 - A Versão da Verificação de Integridade  
 **Status:** Em produção (pelo bem da humanidade)
 
