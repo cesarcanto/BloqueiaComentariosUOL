@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "UOL Comment Blocker",
+  "name": "UOL Sem Comentários",
   "version": "1.0.0",
   "description": "Oculta a área de comentários do UOL Notícias.",
   "icons": {
@@ -20,27 +20,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "uol-comment-blocker@local",
-      "data_collection_permissions": {
-        "required": {
-          "collects_personal_data": false,
-          "collects_browsing_history": false,
-          "collects_health_data": false,
-          "collects_financial_data": false,
-          "collects_location_data": false,
-          "collects_user_activity": false,
-          "collects_user_content": false
-        },
-        "optional": {
-          "collects_personal_data": false,
-          "collects_browsing_history": false,
-          "collects_health_data": false,
-          "collects_financial_data": false,
-          "collects_location_data": false,
-          "collects_user_activity": false,
-          "collects_user_content": false
-        }
-      }
+      "id": "uol-comment-blocker@local"
     }
   }
 }
