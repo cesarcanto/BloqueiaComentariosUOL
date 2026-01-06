@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "UOL Sem Comentários",
+  "version": "1.0.0",
+  "description": "Oculta a área de comentários do UOL Notícias.",
+  "icons": {
+    "48": "icon-48.png",
+    "96": "icon-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://noticias.uol.com.br/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "uol-comment-blocker@local",
+      "data_collection_permissions": {
+        "required": [
+          "collects_personal_data"
+        ],
+        "optional": []
+      }
+    }
+  }
+}
