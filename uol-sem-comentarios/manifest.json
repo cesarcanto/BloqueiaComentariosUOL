@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "UOL Comment Blocker",
+  "version": "1.0",
+  "description": "Bloqueia a área de comentários do UOL Notícias.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.uol.com.br/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
